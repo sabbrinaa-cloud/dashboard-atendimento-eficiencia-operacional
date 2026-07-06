@@ -1,4 +1,4 @@
-# 📊 Dashboard de Atendimento e Performance Operacional
+# 📊 Dashboard de Atendimento e Eficiência Operacional
 
 ## 📌 Sobre o projeto
 
