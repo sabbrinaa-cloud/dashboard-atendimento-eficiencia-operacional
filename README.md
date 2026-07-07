@@ -5,7 +5,7 @@
 ![DAX](https://img.shields.io/badge/DAX-Business%20Intelligence-0F6CBD)
 ![Status](https://img.shields.io/badge/Status-Concluído-success)
 
-O projeto desenvolvido para análise da eficiência operacional de uma central de atendimento e contempla desde a consolidação dos dados utilizando Python, passando pelo processo de ETL, modelagem analítica em Power BI, criação de indicadores estratégicos (KPIs) com DAX e construção de dashboards voltados ao apoio da tomada de decisão.
+Projeto desenvolvido para análise da eficiência operacional de uma central de atendimento, contemplando desde a consolidação dos dados utilizando Python, passando pelo processo de ETL, modelagem analítica em Power BI, criação de indicadores estratégicos (KPIs) com DAX e construção de dashboards voltados ao apoio da tomada de decisão.
 
 ---
 
@@ -95,7 +95,7 @@ Essa página foi desenvolvida para apoiar gestores e lideranças na rápida inte
 
 ## 📈 Resultados do Projeto
 
-Ao final do desenvolvimento foi possível construir uma solução completa de Business Intelligence contemplando:
+Ao final do projeto foi desenvolvida uma solução completa de Business Intelligence composta por:
 
 - ✅ Pipeline ETL desenvolvido em Python para consolidação automática dos dados.
 - ✅ Base analítica única para consumo no Power BI.
@@ -216,9 +216,9 @@ O projeto foi estruturado para permitir futuras evoluções e expansão da solu�
 
 Analista de Dados | Business Intelligence | Analytics | Power BI | Python | SQL
 
-Projeto desenvolvido como demonstração prática de conhecimentos em Python, ETL, Power BI, DAX e Business Intelligence, com foco na construção de soluções analíticas para apoio à tomada de decisão.
+Projeto desenvolvido como demonstração prática de conhecimentos em Python, ETL, Power BI, DAX e Business Intelligence, evidenciando a aplicação de boas práticas em tratamento de dados, construção de KPIs e apoio à tomada de decisão.
 
-### Contato
+### 📬 Contato
 
 - 💼 LinkedIn: [https://linkedin....](https://www.linkedin.com/in/sabrinaleitedesa/)
 - 💻 GitHub: https://github.com/sabbrinaa-cloud
