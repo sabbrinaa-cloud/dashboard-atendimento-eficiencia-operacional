@@ -119,57 +119,78 @@ dashboard-atendimento-eficiencia-operacional/
 ```
 ---
 
-# Pipeline ETL
+## 🔄 Pipeline ETL
 
-O processo desenvolvido contempla as seguintes etapas:
+O pipeline foi desenvolvido em Python para consolidar automaticamente dados provenientes de múltiplas fontes operacionais, realizando todo o processo de preparação da base analítica utilizada pelo dashboard em Power BI.
 
-- Leitura dos arquivos CSV, TXT e XLSX
-- Padronização das colunas
-- Conversão de datas e horários
-- Consolidação das bases
-- Tratamento de inconsistências
-- Cálculo dos tempos de espera e atendimento
-- Classificação dos atendimentos
-- Exportação da base consolidada
+### Etapas executadas
+
+1. 📥 Leitura dos arquivos de entrada (CSV, TXT e XLSX);
+2. 🔎 Validação da estrutura e padronização das colunas;
+3. 📅 Conversão e tratamento de datas e horários;
+4. 🧹 Limpeza e tratamento de inconsistências;
+5. ⏱️ Cálculo do Tempo Médio de Espera (TME);
+6. ⏲️ Cálculo do Tempo Médio de Atendimento (TMA);
+7. 📊 Classificação automática dos atendimentos (Atendido / Abandonado);
+8. 🏪 Consolidação das informações por loja;
+9. 📈 Geração dos indicadores operacionais (KPIs);
+10. 💾 Exportação da base consolidada (`base_consolidada.csv`).
 
 ---
 
 
-# Como executar
+## ▶️ Como Executar
 
-Clone o repositório:
+### 1. Clone o repositório
 
 ```bash
-git clone https://github.com/sabbrinaa-cloud/dashboard-atendimento-performance.git
+git clone https://github.com/sabbrinaa-cloud/dashboard-atendimento-eficiencia-operacional.git
 ```
 
-Instale as dependências:
+### 2. Acesse a pasta do projeto
+
+```bash
+cd dashboard-atendimento-eficiencia-operacional
+```
+
+### 3. Instale as dependências
 
 ```bash
 pip install -r requirements.txt
 ```
 
-Execute:
+### 4. Execute o pipeline ETL
 
 ```bash
 python scripts/consolidacao.py
 ```
 
-A base consolidada será gerada automaticamente na pasta:
+### 5. Resultado
 
+Ao final da execução será gerada automaticamente a base consolidada:
+
+```text
+output/base_consolidada.csv
 ```
-output/
-```
+
+Essa base é utilizada como fonte de dados para o dashboard desenvolvido em Power BI.
 
 ---
 
 ## 🚀 Próximas Evoluções
 
-- Integração com banco de dados SQL Server.
-- Atualização automática das bases de dados.
-- Publicação do dashboard no Power BI Service.
-- Monitoramento em tempo real dos indicadores.
-- Inclusão de alertas automáticos para KPIs críticos.
+O projeto foi estruturado para permitir futuras evoluções e expansão da solução analítica. Entre as melhorias planejadas estão:
+
+- 🔗 Integração com banco de dados SQL Server.
+- ☁️ Publicação do dashboard no Power BI Service.
+- 🔄 Atualização automática das bases de dados.
+- ⏰ Agendamento da execução do pipeline ETL.
+- 📈 Inclusão de novos indicadores estratégicos (KPIs).
+- 📊 Criação de dashboards táticos e gerenciais complementares.
+- 🚨 Implementação de alertas automáticos para indicadores críticos.
+- 🤖 Aplicação de modelos preditivos para identificação de tendências operacionais.
+- 📱 Desenvolvimento de versão otimizada para dispositivos móveis.
+- ⚙️ Integração futura com ferramentas de orquestração de workflows (como n8n ou Apache Airflow).
 
 ---
 
