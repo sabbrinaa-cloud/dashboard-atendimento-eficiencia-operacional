@@ -85,8 +85,8 @@ O objetivo é transformar dados operacionais em informações gerenciais capazes
 
 # 📋 Executive Summary
 
-<p align="center">
-  <img src="images/executive-summary.png" width="70%">
+<p align="left">
+<img src="images/executive-summary.png" width="85%">
 </p>
 
 O Executive Summary apresenta uma visão gerencial da operação, consolidando automaticamente os principais indicadores de desempenho, destaques, pontos de atenção e recomendações estratégicas geradas dinamicamente por meio de medidas DAX.
