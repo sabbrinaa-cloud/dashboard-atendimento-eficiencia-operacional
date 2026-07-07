@@ -5,42 +5,93 @@
 ![DAX](https://img.shields.io/badge/DAX-Business%20Intelligence-0F6CBD)
 ![Status](https://img.shields.io/badge/Status-Concluído-success)
 
+Dashboard desenvolvido para demonstrar a aplicação de Business Intelligence na análise da eficiência operacional de uma central de atendimento.
+
+O projeto contempla desde a consolidação dos dados utilizando Python, passando pelo processo de ETL, modelagem analítica em Power BI, criação de indicadores estratégicos (KPIs) com DAX e construção de dashboards voltados ao apoio da tomada de decisão.
+
 ---
 
 ## 📷 Dashboard Operacional
+
+O Dashboard Operacional apresenta uma visão completa da eficiência da central de atendimento, permitindo acompanhar em tempo real os principais indicadores da operação.
+
+### Principais análises
+
+- Evolução diária dos check-ins e atendimentos.
+- Distribuição de atendimentos e abandonos por loja.
+- Percentual de atendimento em até 10 minutos (SLA).
+- Distribuição dos abandonos por faixa de tempo de espera.
+- Indicadores consolidados da operação.
+
 
 <p align="center">
 <img src="images/dashboard-operacional.png" width="100%">
 </p>
 
-Dashboard desenvolvido para monitoramento da eficiência operacional de uma central de atendimento, permitindo acompanhar indicadores de desempenho, volumes de atendimento, SLA, abandonos e tempos médios de atendimento por loja.
+---
+
+# 📌 Sobre o Projeto
+
+Este projeto foi desenvolvido para demonstrar a aplicação de técnicas de Business Intelligence na análise da eficiência operacional de uma central de atendimento.
+
+A solução contempla todo o ciclo analítico, desde a consolidação das bases utilizando Python, passando pelo processo de ETL, modelagem de dados, criação de indicadores estratégicos com DAX e desenvolvimento de dashboards interativos em Power BI.
+
+O objetivo é transformar dados operacionais em informações gerenciais capazes de apoiar a tomada de decisão e identificar oportunidades de melhoria na operação.
 
 ---
 
-Este projeto foi desenvolvido com o objetivo de consolidar dados provenientes de diferentes fontes, realizar o tratamento das informações utilizando Python e disponibilizar uma base única para construção de dashboards no Power BI.
 
-O pipeline ETL realiza a leitura de arquivos em diferentes formatos (CSV, TXT e XLSX), padroniza a estrutura dos dados, calcula indicadores operacionais e gera uma base consolidada pronta para análise.
+# 🎯 Objetivos
 
----
-
-# Objetivos
-
-- Consolidar dados de múltiplas fontes
-- Padronizar informações
-- Calcular indicadores operacionais
-- Gerar uma base única para análise
-- Construir um dashboard executivo no Power BI
+- Consolidar dados provenientes de múltiplas fontes operacionais.
+- Automatizar o processo de ETL utilizando Python.
+- Desenvolver uma base analítica padronizada para Business Intelligence.
+- Construir indicadores estratégicos (KPIs) utilizando DAX.
+- Desenvolver dashboards interativos em Power BI para apoio à tomada de decisão.
+- Identificar oportunidades de melhoria por meio da análise de desempenho operacional.
 
 ---
 
-# Tecnologias utilizadas
+# 🛠 Tecnologias Utilizadas
 
-- Python
-- Pandas
-- OpenPyXL
-- Git
-- GitHub
-- Power BI
+| Tecnologia | Finalidade |
+|------------|------------|
+| 🐍 Python | Desenvolvimento do pipeline ETL e consolidação das bases de dados |
+| 📊 Power BI | Construção dos dashboards e visualizações interativas |
+| 📈 DAX | Criação de KPIs, medidas e indicadores estratégicos |
+| 🔄 Power Query | Tratamento e transformação dos dados |
+| 📄 Excel | Fonte dos dados utilizados no projeto |
+| 🗃 Git | Versionamento do projeto |
+| 🌐 GitHub | Documentação e disponibilização do portfólio |
+
+---
+
+
+# 📊 Principais Indicadores (KPIs)
+
+| Indicador | Descrição |
+|-----------|-----------|
+| 📋 Total de Check-ins | Volume total de atendimentos registrados na operação. |
+| ✅ Total de Atendidos | Quantidade de atendimentos concluídos com sucesso. |
+| ❌ Total de Abandonos | Clientes que desistiram do atendimento antes da conclusão. |
+| 📈 % Atendimento | Percentual de atendimentos concluídos em relação ao total de check-ins. |
+| ⏱️ SLA até 10 minutos | Percentual de clientes atendidos em até 10 minutos. |
+| ⌛ TME | Tempo Médio de Espera dos clientes na fila. |
+| 🕒 TMA | Tempo Médio de Atendimento realizado pelos operadores. |
+
+
+---
+
+
+# 📋 Executive Summary
+
+<p align="center">
+  <img src="images/executive-summary.png" width="70%">
+</p>
+
+O Executive Summary apresenta uma visão gerencial da operação, consolidando automaticamente os principais indicadores de desempenho, destaques, pontos de atenção e recomendações estratégicas geradas dinamicamente por meio de medidas DAX.
+
+Essa página foi desenvolvida para apoiar gestores e lideranças na rápida interpretação dos resultados operacionais, permitindo identificar oportunidades de melhoria e direcionar ações com maior assertividade.
 
 ---
 
@@ -82,24 +133,6 @@ O processo desenvolvido contempla as seguintes etapas:
 
 ---
 
-# Indicadores calculados
-
-- Total de atendimentos
-- Total de abandonos
-- Tempo médio de espera
-- Tempo médio de atendimento
-- Distribuição por loja
-- Percentual de abandono
-
----
-
-# Dashboard Power BI
-
-O dashboard apresenta indicadores executivos para acompanhamento da operação, permitindo identificar oportunidades de melhoria por meio da análise dos principais KPIs de atendimento.
-
-> 🚧 Em desenvolvimento.
-
----
 
 # Como executar
 
@@ -129,17 +162,18 @@ output/
 
 ---
 
-# Próximas melhorias
+## 🚀 Próximas Evoluções
 
-- Dashboard executivo em Power BI
-- Inclusão de imagens do dashboard
-- Documentação das métricas
-- Melhorias na visualização dos indicadores
+- Integração com banco de dados SQL Server.
+- Atualização automática das bases de dados.
+- Publicação do dashboard no Power BI Service.
+- Monitoramento em tempo real dos indicadores.
+- Inclusão de alertas automáticos para KPIs críticos.
 
 ---
 
-# Autora
+## 👩‍💻 Autora
 
 **Sabrina Sá**
 
-Projeto desenvolvido para fins de estudo e demonstração de conhecimentos em Engenharia de Dados, ETL e Business Intelligence.
+Projeto desenvolvido como demonstração prática de conhecimentos em Python, ETL, Power BI, DAX e Business Intelligence, com foco na construção de soluções analíticas para apoio à tomada de decisão.
