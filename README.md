@@ -1,6 +1,21 @@
 # 📊 Dashboard de Atendimento e Eficiência Operacional
 
-## 📌 Sobre o projeto
+![Power BI](https://img.shields.io/badge/Power%20BI-Analytics-F2C811?logo=powerbi&logoColor=black)
+![Python](https://img.shields.io/badge/Python-ETL-3776AB?logo=python&logoColor=white)
+![DAX](https://img.shields.io/badge/DAX-Business%20Intelligence-0F6CBD)
+![Status](https://img.shields.io/badge/Status-Concluído-success)
+
+---
+
+## 📷 Dashboard Operacional
+
+<p align="center">
+<img src="images/dashboard-operacional.png" width="100%">
+</p>
+
+Dashboard desenvolvido para monitoramento da eficiência operacional de uma central de atendimento, permitindo acompanhar indicadores de desempenho, volumes de atendimento, SLA, abandonos e tempos médios de atendimento por loja.
+
+---
 
 Este projeto foi desenvolvido com o objetivo de consolidar dados provenientes de diferentes fontes, realizar o tratamento das informações utilizando Python e disponibilizar uma base única para construção de dashboards no Power BI.
 
