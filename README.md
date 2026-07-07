@@ -5,9 +5,7 @@
 ![DAX](https://img.shields.io/badge/DAX-Business%20Intelligence-0F6CBD)
 ![Status](https://img.shields.io/badge/Status-Concluído-success)
 
-Dashboard desenvolvido para demonstrar a aplicação de Business Intelligence na análise da eficiência operacional de uma central de atendimento.
-
-O projeto contempla desde a consolidação dos dados utilizando Python, passando pelo processo de ETL, modelagem analítica em Power BI, criação de indicadores estratégicos (KPIs) com DAX e construção de dashboards voltados ao apoio da tomada de decisão.
+O projeto desenvolvido para análise da eficiência operacional de uma central de atendimento e contempla desde a consolidação dos dados utilizando Python, passando pelo processo de ETL, modelagem analítica em Power BI, criação de indicadores estratégicos (KPIs) com DAX e construção de dashboards voltados ao apoio da tomada de decisão.
 
 ---
 
@@ -15,7 +13,7 @@ O projeto contempla desde a consolidação dos dados utilizando Python, passando
 
 O Dashboard Operacional apresenta uma visão completa da eficiência da central de atendimento, permitindo acompanhar em tempo real os principais indicadores da operação.
 
-### Principais análises
+### Principais funcionalidades
 
 - Evolução diária dos check-ins e atendimentos.
 - Distribuição de atendimentos e abandonos por loja.
@@ -25,7 +23,7 @@ O Dashboard Operacional apresenta uma visão completa da eficiência da central 
 
 
 <p align="center">
-<img src="images/dashboard-operacional.png" width="100%">
+<img src="images/dashboard-operacional.png" width="90%">
 </p>
 
 ---
@@ -86,7 +84,7 @@ O objetivo é transformar dados operacionais em informações gerenciais capazes
 # 📋 Executive Summary
 
 <p align="left">
-<img src="images/executive-summary.png" width="85%">
+<img src="images/executive-summary.png" width="80%">
 </p>
 
 O Executive Summary apresenta uma visão gerencial da operação, consolidando automaticamente os principais indicadores de desempenho, destaques, pontos de atenção e recomendações estratégicas geradas dinamicamente por meio de medidas DAX.
@@ -95,6 +93,19 @@ Essa página foi desenvolvida para apoiar gestores e lideranças na rápida inte
 
 ---
 
+## 📈 Resultados do Projeto
+
+Ao final do desenvolvimento foi possível construir uma solução completa de Business Intelligence contemplando:
+
+- ✅ Pipeline ETL desenvolvido em Python para consolidação automática dos dados.
+- ✅ Base analítica única para consumo no Power BI.
+- ✅ Dashboard operacional com indicadores estratégicos e acompanhamento da eficiência da operação.
+- ✅ Executive Summary dinâmico desenvolvido com DAX, destacando automaticamente situação geral, destaques, pontos de atenção e recomendações executivas.
+- ✅ Indicadores de desempenho (KPIs) voltados ao monitoramento da operação e apoio à tomada de decisão.
+- ✅ Projeto totalmente documentado e versionado utilizando Git e GitHub.
+
+  ---
+  
 ## 📂 Estrutura do Projeto
 
 ```text
@@ -175,6 +186,11 @@ output/base_consolidada.csv
 
 Essa base é utilizada como fonte de dados para o dashboard desenvolvido em Power BI.
 
+### Pré-requisitos
+
+- Python 3.10 ou superior
+- Power BI Desktop
+
 ---
 
 ## 🚀 Próximas Evoluções
@@ -188,7 +204,7 @@ O projeto foi estruturado para permitir futuras evoluções e expansão da solu�
 - 📈 Inclusão de novos indicadores estratégicos (KPIs).
 - 📊 Criação de dashboards táticos e gerenciais complementares.
 - 🚨 Implementação de alertas automáticos para indicadores críticos.
-- 🤖 Aplicação de modelos preditivos para identificação de tendências operacionais.
+- 🤖 Aplicação de modelos preditivos para previsão do volume de atendimentos e identificação de tendências operacionais.
 - 📱 Desenvolvimento de versão otimizada para dispositivos móveis.
 - ⚙️ Integração futura com ferramentas de orquestração de workflows (como n8n ou Apache Airflow).
 
@@ -198,4 +214,11 @@ O projeto foi estruturado para permitir futuras evoluções e expansão da solu�
 
 **Sabrina Sá**
 
+Analista de Dados | Business Intelligence | Analytics | Power BI | Python | SQL
+
 Projeto desenvolvido como demonstração prática de conhecimentos em Python, ETL, Power BI, DAX e Business Intelligence, com foco na construção de soluções analíticas para apoio à tomada de decisão.
+
+### Contato
+
+- 💼 LinkedIn: [https://linkedin....](https://www.linkedin.com/in/sabrinaleitedesa/)
+- 💻 GitHub: https://github.com/sabbrinaa-cloud
