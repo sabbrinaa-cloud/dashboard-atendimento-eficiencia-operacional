@@ -95,27 +95,28 @@ Essa página foi desenvolvida para apoiar gestores e lideranças na rápida inte
 
 ---
 
-# Estrutura do projeto
+## 📂 Estrutura do Projeto
 
-```
-Case_Analise_Dados
+```text
+dashboard-atendimento-eficiencia-operacional/
 │
-├── data/
-├── scripts/
-│   └── consolidacao.py
+├── dashboard/
+│   └── Dashboard de Atendimento e Eficiência Operacional.pbix
+│
+├── images/
+│   ├── dashboard-operacional.png
+│   └── executive-summary.png
 │
 ├── output/
 │   └── base_consolidada.csv
 │
-├── dashboard/
-│
-├── images/
+├── scripts/
+│   └── consolidacao.py
 │
 ├── README.md
 ├── requirements.txt
 └── .gitignore
 ```
-
 ---
 
 # Pipeline ETL
